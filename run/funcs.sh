@@ -41,6 +41,9 @@ function setCP()
 	mysql)
 	    cp="../lib/mysql/*:../lib/*"
 	    ;;
+	opengauss)
+	    cp="../lib/opengauss/*:../lib/*"
+        ;;
     esac
     myCP=".:${cp}:../dist/*"
     export myCP
