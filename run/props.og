@@ -1,4 +1,4 @@
-db=postgres
+db=opengauss
 driver=org.opengauss.Driver
 conn=jdbc:opengauss://localhost:15432/benchmarksql
 user=benchmarksql

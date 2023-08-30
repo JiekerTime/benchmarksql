@@ -54,7 +54,7 @@ function setCP()
 # is a database, we support.
 # ----
 case "$(getProp db)" in
-    firebird|oracle|postgres|mysql)
+    firebird|oracle|postgres|mysql|opengauss)
 	;;
     "")	echo "ERROR: missing db= config option in ${PROPS}" >&2
 	exit 1
